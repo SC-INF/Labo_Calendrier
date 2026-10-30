@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int SaisieDate(string demande, int min, int max) {
+int SaisieDate(const string& demande, int min, int max) {
     int valSaisie{0};
 
     while (true) {
